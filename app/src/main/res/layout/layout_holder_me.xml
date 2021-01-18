@@ -9,22 +9,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_alignParentRight="true">
-        <TextView
-            android:id="@+id/tv_time"
-            android:layout_marginRight="@dimen/space10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawablePadding="@dimen/space5"
-            android:drawableRight="@drawable/ic_clock"
-            android:text="5:04pm"
-            android:textColor="@color/colorTextInfo"
-            android:textSize="@dimen/h4"
-            android:textAppearance="@style/ExtraLight"/>
+
         <TextView
             android:id="@+id/tv_chat_text"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="@dimen/space10"
             android:text="Hi, joe how are you, do you like to join our party in next week because you don't like party?"
@@ -34,5 +24,17 @@
             android:layout_alignParentEnd="true"
             android:textAppearance="@style/Light"
             android:background="@drawable/bg_chat_me"/>
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_marginRight="@dimen/space10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/space5"
+            android:drawableLeft="@drawable/ic_clock"
+            android:text="5:04pm"
+            android:textColor="@color/colorTextInfo"
+            android:textSize="@dimen/h5"
+            android:textAppearance="@style/ExtraLight"/>
     </LinearLayout>
 </RelativeLayout>

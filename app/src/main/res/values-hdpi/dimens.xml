@@ -5,5 +5,8 @@
     <dimen name="h3">14sp</dimen>
     <dimen name="h4">12sp</dimen>
     <dimen name="h5">10sp</dimen>
+    <dimen name="h6">8sp</dimen>
+    <dimen name="h7">5sp</dimen>
+    <dimen name="largidth">150dp</dimen>
     <dimen name="maxwidth">170dp</dimen>
 </resources>

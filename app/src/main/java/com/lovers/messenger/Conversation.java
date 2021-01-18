@@ -76,7 +76,7 @@ public class Conversation extends BaseActivity {
     public List<ChatData> setData(){
         List<ChatData> data = new ArrayList<>();
 
-        String text[] = {"15 September","Hi, Julia! How are you?", "Hi, Joe, looks great! :) ", "I'm fine. Wanna go out somewhere?", "Yes! Coffe maybe?", "Great idea! You can come 9:00 pm? :)))", "Ok!", "Ow my good, this Kit is totally awesome", "Can you provide other kit?", "I don't have much time, :`("};
+        String text[] = {"15 September","Hi, joe how are you, do you like to join our party in next week because you don't like party?", "Hi, Joe, Hi, joe how are you, do you like to join our party in next week because you don't like party? looks great! :) ", "I'm fine. Wanna go out somewhere?", "Yes! Coffe maybe?", "Great idea! You can come 9:00 pm? :)))", "Ok!", "Ow my good, this Kit is totally awesome", "Can you provide other kit?", "I don't have much time Hi, joe how are you, do you like to join our party in next week because you don't like party?, :`("};
         String time[] = {"", "5:30pm", "5:35pm", "5:36pm", "5:40pm", "5:41pm", "5:42pm", "5:40pm", "5:41pm", "5:42pm"};
         String type[] = {"0", "2", "1", "1", "2", "1", "2", "2", "2", "1"};
 
